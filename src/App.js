@@ -1,11 +1,11 @@
 import Navbar from "./Components/Navbar"
-//Import MainContent
+import MainContent from "./Components/MainContent"
 
 export default function App(){
     return(
         <div>
             <Navbar />
-            // MainContent
+            <MainContent />
         </div>
     )
 }

@@ -8,7 +8,7 @@ export default function Navbar(){
         <div class="container">
           <div class="logo">
             <Logoinsta />
-            <div class="separador"></div>
+            <div class="separator"></div>
             <Logo />
           </div>
 
@@ -20,18 +20,18 @@ export default function Navbar(){
             <Logo />
           </div>
   
-          <div class="pesquisa">
+          <div class="search">
             <input type="text" placeholder="Pesquisar" />
           </div>
   
-          <div class="icones">
+          <div class="icons">
             <PaperPlaneIcon />
             <ion-icon name="compass-outline"></ion-icon>
             <Heart />
             <ion-icon name="person-outline"></ion-icon>
           </div>
 
-          <div class="icones-mobile">
+          <div class="icons-mobile">
             <PaperPlaneIcon />
           </div>
         </div>

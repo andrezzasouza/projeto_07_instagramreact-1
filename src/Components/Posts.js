@@ -4,7 +4,7 @@ import PaperPlaneIcon from "./PaperPlaneIcon";
 function Post(props){
     return (
             <div class="post">
-              <div class="top">
+              <div class="post-top">
                 <div class="user">
                   <img src={`assets/img/${props.user.image}`} />
                   {props.user.name}
@@ -18,7 +18,7 @@ function Post(props){
                 <img src={`assets/img/${props.content}`} />
               </div>
 
-              <div class="bottom">
+              <div class="post-bottom">
                 <div class="actions">
                   <div>
                     <Heart />
@@ -32,7 +32,7 @@ function Post(props){
 
                 <div class="likes">
                   <img src={`assets/img/${props.likes.friendImage}`} />
-                  <div class="text">
+                  <div class="texto">
                     Curtido por <strong>{props.likes.friend}</strong> e <strong>outras {props.likes.quantity} pessoas</strong>
                   </div>
                 </div>
